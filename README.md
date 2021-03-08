@@ -25,6 +25,11 @@ One cloned, you must install the slim components by running:
 composer install
 ```
 
+If you hit issues with this 'Your requirements could not be resolved to an installable set of packages.' this fix worked for me.
+```
+sudo apt-get install php-xml
+```
+
 To run the application locally:
 ```bash
 composer start
